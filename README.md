@@ -26,13 +26,6 @@ Key files:
 - `visualize_graph.py` — optional graph view helper
 - `improvements.md` — detailed list of changes and features
 
-## Prerequisites
-- Python 3.12+ (a ready `task_venv/` exists in this repo if you choose to use it)
-- Accounts/keys for:
-  - Google Gemini API
-  - Pinecone
-  - Neo4j instance (local or remote)
-
 ## Setup
 1) Create/activate a virtual environment (or use `task_venv/`).
 2) Install dependencies from `requirements.txt`.
