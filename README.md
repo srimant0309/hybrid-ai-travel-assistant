@@ -59,18 +59,6 @@ Then open the printed local URL in your browser to interact with the travel assi
 ## Logging
 - Logs are written to `logging/logs.txt`.
 - Includes prompt text, Pinecone and Neo4j results, and the final LLM response.
-- Avoid logging secrets.
-
-## Troubleshooting
-- Verify credentials in `config.py`.
-- Ensure Pinecone index exists and is ready; first run may be slower.
-- Confirm Neo4j connectivity; check for auth/URI mismatches.
-- Check `logging/logs.txt` for detailed run-time clues.
-
-## Repository Layout
-- `cache/` — embedding cache files
-- `logging/` — log output (`logs.txt`)
-- `neo4j_viz.html` — graph visualization page
 
 ## More Details
 See `improvements.md` for a comprehensive list of fixes, updates, and feature implementations.
