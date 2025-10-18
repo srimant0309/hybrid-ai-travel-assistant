@@ -1,0 +1,13 @@
+google-generativeai>=0.7.2
+neo4j==5.9.0
+# OpenAI SDK 2.x (compatible with httpx>=0.28)
+openai>=2.0.0
+# Use the new official Pinecone SDK (package name is 'pinecone')
+pinecone>=7.0.0
+pyvis==0.3.1
+networkx==3.1
+tqdm
+python-dotenv
+tomlkit>=0.12
+gradio>=4.0.0
+sentence-transformers>=2.2.2
