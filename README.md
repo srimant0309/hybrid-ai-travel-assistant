@@ -41,8 +41,16 @@ Key files:
 - Pinecone: Run `pinecone_upload.py` to create and populate the index based on `config.py`.
 
 ## Run the App
-Run the Gradio UI:
 
+1) Clone the repo
+```bash
+git clone https://github.com/srimant0309/hybrid-ai-travel-assistant
+```
+2) Install Requirements
+```bash
+pip install -r requirements.txt
+```
+3) Run the Gradio UI
 ```bash
 python gradio_app.py
 ```
